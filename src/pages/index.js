@@ -5,7 +5,7 @@ import SEO from "../components/common/layout/seo"
 import Navigation from "../components/common/navigation/navigation"
 
 import Header from "../components/sections/header"
-import Mission from "../components/sections/features"
+import Mission from "../components/sections/mission"
 import Footer from "../components/sections/footer"
 import GetStarted from "../components/sections/getstarted"
 
