@@ -1,6 +1,6 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -92,6 +92,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://www.aboutmonica.com"><img src="https://avatars0.githubusercontent.com/u/6998954?v=4" width="100px;" alt=""/><br /><sub><b>Monica Powell</b></sub></a><br /><a href="https://github.com/M0nica/ambition-fund-website/commits?author=m0nica" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/jordan-paz"><img src="https://avatars0.githubusercontent.com/u/42680433?v=4" width="100px;" alt=""/><br /><sub><b>Jordan Paz</b></sub></a><br /><a href="https://github.com/M0nica/ambition-fund-website/commits?author=jordan-paz" title="Code">💻</a></td>
   </tr>
 </table>
 
