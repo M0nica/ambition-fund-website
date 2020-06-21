@@ -81,7 +81,7 @@ class Signup extends React.Component {
               <div role="button" tabindex="0">
                 <fieldset
                   data-group="checkboxes"
-                  className="formkit-8024"
+                  class="formkit-8024"
                   type="Custom"
                   order="3"
                   save_as="Tag"
@@ -89,12 +89,12 @@ class Signup extends React.Component {
                 >
                   <legend>I'm interested in...</legend>
                   <div
-                    className="formkit-checkboxes"
+                    class="formkit-checkboxes"
                     data-element="tags-checkboxes"
                     data-group="checkbox"
                   >
                     <input
-                      className="formkit-checkbox"
+                      class="formkit-checkbox"
                       id="tag-3865118-1679535"
                       type="checkbox"
                       name="tags[]"
@@ -105,12 +105,12 @@ class Signup extends React.Component {
                     </label>
                   </div>
                   <div
-                    className="formkit-checkboxes"
+                    class="formkit-checkboxes"
                     data-element="tags-checkboxes"
                     data-group="checkbox"
                   >
                     <input
-                      className="formkit-checkbox"
+                      class="formkit-checkbox"
                       id="tag-3865118-1679537"
                       type="checkbox"
                       name="tags[]"
@@ -121,12 +121,12 @@ class Signup extends React.Component {
                     </label>
                   </div>
                   <div
-                    className="formkit-checkboxes"
+                    class="formkit-checkboxes"
                     data-element="tags-checkboxes"
                     data-group="checkbox"
                   >
                     <input
-                      className="formkit-checkbox"
+                      class="formkit-checkbox"
                       id="tag-3865118-1679540"
                       type="checkbox"
                       name="tags[]"
@@ -137,15 +137,25 @@ class Signup extends React.Component {
                       opportunities
                     </label>
                   </div>
+                  <div
+                    class="formkit-checkboxes"
+                    data-element="tags-checkboxes"
+                    data-group="checkbox"
+                  >
+                    <input
+                      class="formkit-checkbox"
+                      id="tag-3865118-1679656"
+                      type="checkbox"
+                      name="tags[]"
+                      value="1679656"
+                    />
+                    <label for="tag-3865118-1679656">
+                      volunteering to support this initiative
+                    </label>
+                  </div>
                 </fieldset>
               </div>
             </div>
-            {/*<button
-              data-element="submit"
-              className="formkit-submit formkit-submit"
-            >
-              <span>Subscribe</span>
-            </button>*/}
             <button
               data-element="submit"
               className="formkit-submit formkit-submit"
