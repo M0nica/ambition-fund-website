@@ -3,7 +3,7 @@ module.exports = {
     title: `Ambition Fund`,
     siteUrl: `https://www.ambitionfund.org/`,
     description: `Our mission is to increase access to free and low-cost
-        professional development opportunities within the technology industy. In
+        professional development opportunities within the technology industry. In
         particular, we are focused on supporting individuals who traditionally have been underrepresented within the technology industry.`,
     author: `Monica Powell`,
   },
