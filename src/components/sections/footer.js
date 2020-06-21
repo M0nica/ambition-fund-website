@@ -39,7 +39,15 @@ const Footer = () => (
       <FooterColumn>
         <span>Contact Us</span>
         <ul>
-          <li>info@ambitionfund.org</li>
+          <li>
+            <a href="mailto:info@ambitionfund.org">info@ambitionfund.org</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            Twitter -{" "}
+            <a href="https://twitter.com/AmbitionFund">@ambitionfund</a>
+          </li>
         </ul>
       </FooterColumn>
     </FooterColumnContainer>

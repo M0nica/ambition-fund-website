@@ -4,7 +4,7 @@ import styled from "styled-components"
 import { Section, Container } from "../global"
 
 const Mission = () => (
-  <Section id="Mission">
+  <Section id="mission">
     <StyledContainer>
       <Subtitle>Mission</Subtitle>
       <SectionTitle>Supporting your ambition.</SectionTitle>
@@ -21,8 +21,8 @@ const Mission = () => (
           <FeatureTitle>Microgrant Program</FeatureTitle>
           <FeatureText>
             Is there a professional development related expense you need help
-            covering? Apply to our upcoming micro-grant program to receive
-            support up to $500 USD.
+            covering? Apply to our upcoming microgrant program to receive
+            financial support.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>

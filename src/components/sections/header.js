@@ -27,7 +27,7 @@ const Header = () => {
             <h1>Ambition Fund</h1>
             <h2>
               Sign up to receive updates and be the first to hear when we launch
-              our micro-grant program for tech-related professional development
+              our microgrant program for tech-related professional development
               opportunities.
             </h2>
 
