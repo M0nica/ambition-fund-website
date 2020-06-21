@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Ambition Fund`,
     siteUrl: `https://www.ambitionfund.org/`,
-    description: `On a mission to provide support for underrepresented people who need financial assistance pursuing professional development opportunities in the technology industry.`,
+    description: `Our mission is to support the professional ambitions of underrepresented people pursuing careers in technology by increasing access to free and low-cost professional development opportunities.`,
     author: `Monica Powell`,
   },
   plugins: [
