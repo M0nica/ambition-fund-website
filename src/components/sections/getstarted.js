@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-import { Link } from "gatsby"
 
 import { Container, Section } from "../global"
 
@@ -8,10 +7,10 @@ const GetStarted = () => (
   <StyledSection>
     <GetStartedContainer>
       <GetStartedTitle>Keep In Touch</GetStartedTitle>
-      <Link to="#top">
+      <a href="#top">
         {" "}
         <TryItButton>Receive Updates</TryItButton>
-      </Link>
+      </a>
       <Subtitle>
         Thanks for visiting!{" "}
         <span role="img" aria-label="hand waving">

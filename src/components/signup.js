@@ -78,10 +78,10 @@ class Signup extends React.Component {
               </div>
             </div>
             <div className="formkit-checkbox">
-              <div role="button" tabindex="0">
+              <div role="button" tabIndex="0">
                 <fieldset
                   data-group="checkboxes"
-                  class="formkit-8024"
+                  className="formkit-8024"
                   type="Custom"
                   order="3"
                   save_as="Tag"
@@ -89,67 +89,67 @@ class Signup extends React.Component {
                 >
                   <legend>I'm interested in...</legend>
                   <div
-                    class="formkit-checkboxes"
+                    className="formkit-checkboxes"
                     data-element="tags-checkboxes"
                     data-group="checkbox"
                   >
                     <input
-                      class="formkit-checkbox"
+                      className="formkit-checkbox"
                       id="tag-3865118-1679535"
                       type="checkbox"
                       name="tags[]"
                       value="1679535"
                     />
-                    <label for="tag-3865118-1679535">
+                    <label htmlFor="tag-3865118-1679535">
                       applying to receive monetary support
                     </label>
                   </div>
                   <div
-                    class="formkit-checkboxes"
+                    className="formkit-checkboxes"
                     data-element="tags-checkboxes"
                     data-group="checkbox"
                   >
                     <input
-                      class="formkit-checkbox"
+                      className="formkit-checkbox"
                       id="tag-3865118-1679537"
                       type="checkbox"
                       name="tags[]"
                       value="1679537"
                     />
-                    <label for="tag-3865118-1679537">
+                    <label htmlFor="tag-3865118-1679537">
                       learning more about providing monetary support
                     </label>
                   </div>
                   <div
-                    class="formkit-checkboxes"
+                    className="formkit-checkboxes"
                     data-element="tags-checkboxes"
                     data-group="checkbox"
                   >
                     <input
-                      class="formkit-checkbox"
+                      className="formkit-checkbox"
                       id="tag-3865118-1679540"
                       type="checkbox"
                       name="tags[]"
                       value="1679540"
                     />
-                    <label for="tag-3865118-1679540">
+                    <label htmlFor="tag-3865118-1679540">
                       discovering free and low-cost professional development
                       opportunities
                     </label>
                   </div>
                   <div
-                    class="formkit-checkboxes"
+                    className="formkit-checkboxes"
                     data-element="tags-checkboxes"
                     data-group="checkbox"
                   >
                     <input
-                      class="formkit-checkbox"
+                      className="formkit-checkbox"
                       id="tag-3865118-1679656"
                       type="checkbox"
                       name="tags[]"
                       value="1679656"
                     />
-                    <label for="tag-3865118-1679656">
+                    <label htmlFor="tag-3865118-1679656">
                       volunteering to support this initiative
                     </label>
                   </div>
