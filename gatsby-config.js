@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter SaaS Marketing`,
-    description: `A simple one page marketing starter for saas companies.`,
-    author: `Keegan Burkett`,
+    title: `Ambition Fund`,
+    siteUrl: `https://www.ambitionfund.org/`,s
+    description: `On a mission to provide support for underrepresented people who need financial assistance pursuing professional development opportunities in the technology industry.`,
+    author: `Monica Powell`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
