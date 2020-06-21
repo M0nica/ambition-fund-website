@@ -3,6 +3,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll"
 import Scrollspy from "react-scrollspy"
 import { Menu, X } from "react-feather"
 
+import Image from "../image"
 import { Container } from "../../global"
 import {
   Nav,
@@ -75,6 +76,7 @@ export default class Navigation extends Component {
         <StyledContainer>
           <Brand>
             <Scrollspy offset={-64} item={["top"]} currentClassName="active">
+              <Image />
               <AnchorLink href="#top" onClick={this.closeMobileMenu}>
                 Ambition Fund
               </AnchorLink>

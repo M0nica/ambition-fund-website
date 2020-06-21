@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-saas-marketing",
+  "name": "ambition-fund",
   "private": true,
-  "description": "A simple one page marketing starter for saas companies",
+  "description": "Website for Ambition Fund project",
   "version": "0.1.0",
-  "author": "Keegan Burkett <keegan.t.marciniak@gmail.com>",
+  "author": "Monica Powell <monica@aboutmonica.com>",
   "dependencies": {
     "gatsby": "^2.15.31",
     "gatsby-image": "^2.2.24",
@@ -42,9 +42,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://https://github.com/M0nica/ambition-fund-website"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://https://github.com/M0nica/ambition-fund-website/issues"
   }
 }
