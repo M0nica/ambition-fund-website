@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Ambition Fund`,
-    siteUrl: `https://www.ambitionfund.org/`,s
+    siteUrl: `https://www.ambitionfund.org/`,
     description: `On a mission to provide support for underrepresented people who need financial assistance pursuing professional development opportunities in the technology industry.`,
     author: `Monica Powell`,
   },
