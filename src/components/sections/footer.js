@@ -54,9 +54,16 @@ const Footer = () => (
         </ul>
       </FooterColumn>
     </FooterColumnContainer>
+
     <BrandContainer>
       <Logo>Ambition Fund</Logo>
     </BrandContainer>
+    <CreditContainer>
+      <CreditText>
+        This site is powered by{" "}
+        <StyledLink href="https://www.netlify.com">Netlify</StyledLink>
+      </CreditText>
+    </CreditContainer>
   </FooterWrapper>
 )
 
@@ -99,6 +106,19 @@ const BrandContainer = styled(Container)`
 
   @media (max-width: ${props => props.theme.screen.sm}) {
   }
+`
+
+const CreditContainer = styled(Container)`
+  position: relative;
+  padding-top: 8px;
+  display: flex;
+  align-items: flex-end;
+  @media (max-width: ${props => props.theme.screen.sm}) {
+  }
+`
+
+const CreditText = styled.p`
+  font-size: 12px;
 `
 const FooterColumnContainer = styled(Container)`
   display: grid;
