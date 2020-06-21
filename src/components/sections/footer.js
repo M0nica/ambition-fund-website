@@ -5,36 +5,6 @@ import { Container } from "../global"
 
 const Footer = () => (
   <FooterWrapper id="footer">
-    {/*  <FooterColumnContainer>
-      <FooterColumn>
-        <span>Mission</span>
-        <ul>
-          <li>Automation</li>
-          <li>Rewards</li>
-        </ul>
-      </FooterColumn>
-      <FooterColumn>
-        <span>Resources</span>
-        <ul>
-          <li>Compare</li>
-          <li>Blog</li>
-        </ul>
-      </FooterColumn>
-      <FooterColumn>
-        <span>Company</span>
-        <ul>
-          <li>About Us</li>
-          <li>Careers</li>
-        </ul>
-      </FooterColumn>
-      <FooterColumn>
-        <span>Social</span>
-        <ul>
-          <li>LinkedIn</li>
-          <li>Instagram</li>
-        </ul>
-      </FooterColumn>
-    </FooterColumnContainer>*/}
     <FooterColumnContainer>
       <FooterColumn>
         <span>Contact Us</span>
@@ -68,6 +38,17 @@ const Footer = () => (
           <li>
             <StyledLink href="https://github.com/M0nica/ambition-fund-website/issues">
               Help Wanted
+            </StyledLink>
+          </li>
+        </ul>
+      </FooterColumn>
+      <FooterColumn>
+        {" "}
+        <span>Donate</span>
+        <ul>
+          <li>
+            <StyledLink href="https://opencollective.com/ambition-fund">
+              Open Collective
             </StyledLink>
           </li>
         </ul>

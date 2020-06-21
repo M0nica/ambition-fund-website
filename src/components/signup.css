@@ -341,7 +341,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 20px;
 }
 .formkit-form .formkit-column:nth-child(2) {
   border-top: 1px solid #e9ecef;
