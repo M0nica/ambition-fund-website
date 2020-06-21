@@ -76,10 +76,11 @@ export const Brand = styled.div`
     list-style: none;
     margin: 0;
     padding: 0;
-
+    display: flex;
     a {
       color: ${props => props.theme.color.black.regular};
       text-decoration: none;
+      margin-left: 7px;
     }
   }
 `

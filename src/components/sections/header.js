@@ -5,12 +5,36 @@ import Img from "gatsby-image"
 import OptIn from "../signup"
 import { Container } from "../global"
 
-const Header = () => {
+export const PureHeader = props => (
+  <HeaderWrapper id="top">
+    <Container>
+      <Flex>
+        <HeaderTextGroup>
+          <Subtitle>We’re here to support your vision.</Subtitle>
+          <h1>Ambition Fund</h1>
+          <h2>
+            Sign up to receive updates and be the first to hear when we launch
+            our microgrant program for tech-related professional development
+            opportunities.
+          </h2>
+
+          <OptIn />
+        </HeaderTextGroup>
+        <ImageWrapper>
+          <StyledImage fluid={props.data.file.childImageSharp.fluid} />
+          <br />
+        </ImageWrapper>
+      </Flex>
+    </Container>
+  </HeaderWrapper>
+)
+
+const Header = props => {
   const data = useStaticQuery(graphql`
     query {
       file(sourceInstanceName: { eq: "branding" }, name: { eq: "people" }) {
         childImageSharp {
-          fluid(maxWidth: 1000) {
+          fluid(maxWidth: 1000, traceSVG: { color: "grey" }) {
             ...GatsbyImageSharpFluid_tracedSVG
           }
         }
@@ -18,29 +42,7 @@ const Header = () => {
     }
   `)
 
-  return (
-    <HeaderWrapper id="top">
-      <Container>
-        <Flex>
-          <HeaderTextGroup>
-            <Subtitle>We’re here to support your vision.</Subtitle>
-            <h1>Ambition Fund</h1>
-            <h2>
-              Sign up to receive updates and be the first to hear when we launch
-              our microgrant program for tech-related professional development
-              opportunities.
-            </h2>
-
-            <OptIn />
-          </HeaderTextGroup>
-          <ImageWrapper>
-            <StyledImage fluid={data.file.childImageSharp.fluid} />
-            <br />
-          </ImageWrapper>
-        </Flex>
-      </Container>
-    </HeaderWrapper>
-  )
+  return <PureHeader {...props} data={data}></PureHeader>
 }
 
 export default Header
