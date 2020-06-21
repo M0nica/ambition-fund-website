@@ -40,13 +40,19 @@ const Footer = () => (
         <span>Contact Us</span>
         <ul>
           <li>
-            <a href="mailto:info@ambitionfund.org">info@ambitionfund.org</a>
+            {" "}
+            Email -{" "}
+            <StyledLink href="mailto:info@ambitionfund.org">
+              info@ambitionfund.org
+            </StyledLink>
           </li>
         </ul>
         <ul>
           <li>
             Twitter -{" "}
-            <a href="https://twitter.com/AmbitionFund">@ambitionfund</a>
+            <StyledLink href="https://twitter.com/AmbitionFund">
+              @ambitionfund
+            </StyledLink>
           </li>
         </ul>
       </FooterColumn>
@@ -55,12 +61,14 @@ const Footer = () => (
         <span>Community</span>
         <ul>
           <li>
-            <a href="https://github.com/M0nica/ambition-fund-website">GitHub</a>
+            <StyledLink href="https://github.com/M0nica/ambition-fund-website">
+              GitHub
+            </StyledLink>
           </li>
           <li>
-            <a href="https://github.com/M0nica/ambition-fund-website/issues">
+            <StyledLink href="https://github.com/M0nica/ambition-fund-website/issues">
               Help Wanted
-            </a>
+            </StyledLink>
           </li>
         </ul>
       </FooterColumn>
@@ -77,6 +85,15 @@ const FooterWrapper = styled.footer`
   padding: 0 0 80px;
 `
 
+const StyledLink = styled.a`
+  color: ${props => props.theme.color.primary};
+  font-weight: bold;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+`
 const Logo = styled.div`
   font-family: ${props => props.theme.font.extrabold};
   ${props => props.theme.font_size.regular};
