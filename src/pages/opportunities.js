@@ -3,21 +3,16 @@ import React from "react"
 import Layout from "../components/common/layout/layout"
 import SEO from "../components/common/layout/seo"
 import Navigation from "../components/common/navigation/navigation"
-
-import Header from "../components/sections/header"
-import Mission from "../components/sections/mission"
+import Conferences from "../components/sections/conferences"
 import Footer from "../components/sections/footer"
-import GetStarted from "../components/sections/getstarted"
 
-const IndexPage = () => (
+const OpportunityPage = () => (
   <Layout>
-    <SEO title="Home | Ambition Fund" />
+    <SEO title="Opportunities | Ambition Fund" />
     <Navigation />
-    <Header />
-    <Mission />
-    <GetStarted />
+    <Conferences />
     <Footer />
   </Layout>
 )
 
-export default IndexPage
+export default OpportunityPage
