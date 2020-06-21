@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "m0nica",
+      "name": "Monica Powell",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6998954?v=4",
+      "profile": "https://www.aboutmonica.com",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "ambition-fund-website",
+  "projectOwner": "M0nica",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
