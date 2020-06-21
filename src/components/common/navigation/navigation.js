@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import { Link } from "gatsby"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import Scrollspy from "react-scrollspy"
 import { Menu, X } from "react-feather"
@@ -64,6 +65,9 @@ export default class Navigation extends Component {
         {NAV_ITEMS.map(navItem => (
           <NavItem key={navItem}>{this.getNavAnchorLink(navItem)}</NavItem>
         ))}
+        <Link to="/opportunities" onClick={this.closeMobileMenu}>
+          Opportunities
+        </Link>
       </Scrollspy>
     </NavListWrapper>
   )
