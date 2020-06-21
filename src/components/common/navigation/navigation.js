@@ -52,6 +52,7 @@ export default class Navigation extends Component {
   }
 
   getNavLink = ({ name, pathname, hash }) => {
+    if (typeof window === "undefined") return null
     return window.location.pathname === pathname && hash ? (
       <AnchorLink href={hash} onClick={this.closeMobileMenu}>
         {name}
