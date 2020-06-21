@@ -53,9 +53,16 @@ export default class Navigation extends Component {
 
   getNavLink = ({ name, pathname, hash }) => {
     return window.location.pathname === pathname && hash ? (
-      <AnchorLink href={hash}>{name}</AnchorLink>
+      <AnchorLink href={hash} onClick={this.closeMobileMenu}>
+        {name}
+      </AnchorLink>
     ) : (
-      <Link to={`${hash ? pathname + hash : pathname}`}>{name}</Link>
+      <Link
+        to={`${hash ? pathname + hash : pathname}`}
+        onClick={this.closeMobileMenu}
+      >
+        {name}
+      </Link>
     )
   }
 
@@ -68,9 +75,7 @@ export default class Navigation extends Component {
         offset={-64}
       >
         {NAV_ITEMS.map(navItem => (
-          <NavItem key={navItem.name} onClick={this.closeMobileMenu}>
-            {this.getNavLink(navItem)}
-          </NavItem>
+          <NavItem key={navItem.name}>{this.getNavLink(navItem)}</NavItem>
         ))}
       </Scrollspy>
     </NavListWrapper>
