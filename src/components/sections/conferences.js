@@ -40,7 +40,7 @@ const Mission = () => (
 
       <MissionGrid>
         {conferences.map(conference => (
-          <FeatureItem>
+          <FeatureItem key={conference.name}>
             <FeatureTitle>
               {conference.name} {conference.free && <FreeLabel>FREE</FreeLabel>}
             </FeatureTitle>

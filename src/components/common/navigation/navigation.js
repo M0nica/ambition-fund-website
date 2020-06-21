@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import { Link } from "gatsby"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import Scrollspy from "react-scrollspy"
 import { Menu, X } from "react-feather"
@@ -15,7 +16,10 @@ import {
   Mobile,
 } from "./style"
 
-const NAV_ITEMS = ["Mission"]
+const NAV_ITEMS = [
+  { name: "Mission", pathname: "/", hash: "#mission" },
+  { name: "Opportunities", pathname: "/opportunities" },
+]
 
 export default class Navigation extends Component {
   state = {
@@ -47,22 +51,32 @@ export default class Navigation extends Component {
     }
   }
 
-  getNavAnchorLink = item => (
-    <AnchorLink href={`#${item.toLowerCase()}`} onClick={this.closeMobileMenu}>
-      {item}
-    </AnchorLink>
-  )
+  getNavLink = ({ name, pathname, hash }) => {
+    if (typeof window === "undefined") return null
+    return window.location.pathname === pathname && hash ? (
+      <AnchorLink href={hash} onClick={this.closeMobileMenu}>
+        {name}
+      </AnchorLink>
+    ) : (
+      <Link
+        to={`${hash ? pathname + hash : pathname}`}
+        onClick={this.closeMobileMenu}
+      >
+        {name}
+      </Link>
+    )
+  }
 
   getNavList = ({ mobile = false }) => (
     <NavListWrapper mobile={mobile}>
       <Scrollspy
-        items={NAV_ITEMS.map(item => item.toLowerCase())}
+        items={NAV_ITEMS.map(item => item.name.toLowerCase())}
         currentClassName="active"
         mobile={mobile}
         offset={-64}
       >
         {NAV_ITEMS.map(navItem => (
-          <NavItem key={navItem}>{this.getNavAnchorLink(navItem)}</NavItem>
+          <NavItem key={navItem.name}>{this.getNavLink(navItem)}</NavItem>
         ))}
       </Scrollspy>
     </NavListWrapper>
@@ -77,9 +91,11 @@ export default class Navigation extends Component {
           <Brand>
             <Scrollspy offset={-64} item={["top"]} currentClassName="active">
               <Image />
-              <AnchorLink href="#top" onClick={this.closeMobileMenu}>
-                Ambition Fund
-              </AnchorLink>
+              {this.getNavLink({
+                name: "Ambition Fund",
+                pathname: "/",
+                hash: "#top",
+              })}
             </Scrollspy>
           </Brand>
           <Mobile>
