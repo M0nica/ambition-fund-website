@@ -50,6 +50,20 @@ const Footer = () => (
           </li>
         </ul>
       </FooterColumn>
+      <FooterColumn>
+        {" "}
+        <span>Community</span>
+        <ul>
+          <li>
+            <a href="https://github.com/M0nica/ambition-fund-website">GitHub</a>
+          </li>
+          <li>
+            <a href="https://github.com/M0nica/ambition-fund-website/issues">
+              Help Wanted
+            </a>
+          </li>
+        </ul>
+      </FooterColumn>
     </FooterColumnContainer>
     <BrandContainer>
       <Logo>Ambition Fund</Logo>
