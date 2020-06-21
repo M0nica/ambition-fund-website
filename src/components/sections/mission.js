@@ -11,8 +11,8 @@ const Mission = () => (
 
       <MissionIntro>
         Our mission is to increase access to free and low-cost educational and
-        professional development opportunities within the technology industy. In
-        particular, we are focused on supporting individuals who are pursuing
+        professional development opportunities within the technology industry.
+        In particular, we are focused on supporting individuals who are pursuing
         careers in technology and identify as belonging to a community that has
         traditionally been underrepresented within the technology industry.
       </MissionIntro>
