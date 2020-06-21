@@ -3,53 +3,41 @@ import styled from "styled-components"
 
 import { Section, Container } from "../global"
 
-const Features = () => (
-  <Section id="features">
+const Mission = () => (
+  <Section id="Mission">
     <StyledContainer>
-      <Subtitle>Features</Subtitle>
-      <SectionTitle>Smart money management</SectionTitle>
-      <FeaturesGrid>
+      <Subtitle>Mission</Subtitle>
+      <SectionTitle>Supporting your ambition.</SectionTitle>
+
+      <MissionIntro>
+        {" "}
+        Our mission is to support the professional ambitions of underrepresented
+        people pursuing careers in technology by increasing access to free and
+        low-cost professional development opportunities.
+      </MissionIntro>
+
+      <MissionGrid>
         <FeatureItem>
-          <FeatureTitle>Notifications</FeatureTitle>
+          <FeatureTitle>Microgrant Program</FeatureTitle>
           <FeatureText>
-            Receive budget and spending alerts based on your favorite triggers.
+            Is there a professional development related expense you need help
+            covering? Apply to our upcoming micro-grant program to receive
+            support up to $500 USD.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Security</FeatureTitle>
+          <FeatureTitle>Amplify Opportunities</FeatureTitle>
           <FeatureText>
-            Your data is always safe with us as we use the latest security
-            protocols.
+            When we hear about free or low-cost tech-related professional
+            development opportunities we'll be sure to let you know!
           </FeatureText>
         </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Automation</FeatureTitle>
-          <FeatureText>
-            Create smart automated workflows and triggers for your money.
-          </FeatureText>
-        </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Aggregation</FeatureTitle>
-          <FeatureText>
-            Easily link up to 5 banks to your finance account.
-          </FeatureText>
-        </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Payments</FeatureTitle>
-          <FeatureText>Send money to friends and family with ease.</FeatureText>
-        </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Rewards</FeatureTitle>
-          <FeatureText>
-            High interest and rewards for hitting your goals.
-          </FeatureText>
-        </FeatureItem>
-      </FeaturesGrid>
+      </MissionGrid>
     </StyledContainer>
   </Section>
 )
 
-export default Features
+export default Mission
 
 const StyledContainer = styled(Container)``
 
@@ -69,7 +57,12 @@ const Subtitle = styled.h5`
   text-align: center;
 `
 
-const FeaturesGrid = styled.div`
+const MissionIntro = styled.div`
+  max-width: 760px;
+  margin: 0 auto;
+`
+
+const MissionGrid = styled.div`
   max-width: 670px;
   display: grid;
   grid-template-columns: 1fr 1fr;

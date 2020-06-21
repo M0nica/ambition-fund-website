@@ -1,14 +1,23 @@
 import React from "react"
 import styled from "styled-components"
+import { Link } from "gatsby"
 
 import { Container, Section } from "../global"
 
 const GetStarted = () => (
   <StyledSection>
     <GetStartedContainer>
-      <GetStartedTitle>Be the first to get the beta</GetStartedTitle>
-      <TryItButton>Get early access</TryItButton>
-      <Subtitle>No credit card required.</Subtitle>
+      <GetStartedTitle>Keep In Touch</GetStartedTitle>
+      <Link to="#top">
+        {" "}
+        <TryItButton>Receive Updates</TryItButton>
+      </Link>
+      <Subtitle>
+        Thanks for visiting!{" "}
+        <span role="img" aria-label="hand waving">
+          👋🏾
+        </span>{" "}
+      </Subtitle>
     </GetStartedContainer>
   </StyledSection>
 )
