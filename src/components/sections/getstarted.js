@@ -7,10 +7,7 @@ const GetStarted = () => (
   <StyledSection>
     <GetStartedContainer>
       <GetStartedTitle>Keep In Touch</GetStartedTitle>
-      <a href="#top">
-        {" "}
-        <TryItButton>Receive Updates</TryItButton>
-      </a>
+      <TryItButton as="a" href="#top">Receive Updates</TryItButton>
       <Subtitle>
         Thanks for visiting!{" "}
         <span role="img" aria-label="hand waving">
@@ -47,7 +44,6 @@ const TryItButton = styled.button`
   color: white;
   letter-spacing: 1px;
   height: 60px;
-  display: block;
   margin-left: 8px;
   text-transform: uppercase;
   cursor: pointer;
@@ -60,6 +56,9 @@ const TryItButton = styled.button`
   border-color: initial;
   border-image: initial;
   outline: 0px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
   &:hover {
     box-shadow: rgba(110, 120, 152, 0.22) 0px 2px 10px 0px;
   }
