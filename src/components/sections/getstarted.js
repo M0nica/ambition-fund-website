@@ -59,7 +59,10 @@ const TryItButton = styled.button`
   display: inline-flex;
   align-items: center;
   text-decoration: none;
+  transition: all 0.2s ease;
   &:hover {
+    transform: translateY(-1px);
+    background: ${props => props.theme.color.accent};
     box-shadow: rgba(110, 120, 152, 0.22) 0px 2px 10px 0px;
   }
   @media (max-width: ${props => props.theme.screen.md}) {
