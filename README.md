@@ -1,10 +1,9 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-## Ambition Fund
+## Ambition Fund [![Netlify Status](https://api.netlify.com/api/v1/badges/3ea135e7-e6a1-4cfa-96ed-d75e4de16ea8/deploy-status)](https://app.netlify.com/sites/ambitionfund/deploys)
+
 
 - [https://www.ambitionfund.org ](https://www.ambitionfund.org)
 - The Ambition Fund's mission is to support the professional ambitions of underrepresented people pursuing careers in technology by increasing access to free and low-cost professional development opportunities.
@@ -102,12 +101,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://www.aboutmonica.com"><img src="https://avatars0.githubusercontent.com/u/6998954?v=4" width="100px;" alt=""/><br /><sub><b>Monica Powell</b></sub></a><br /><a href="https://github.com/M0nica/ambition-fund-website/commits?author=m0nica" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/jordan-paz"><img src="https://avatars0.githubusercontent.com/u/42680433?v=4" width="100px;" alt=""/><br /><sub><b>Jordan Paz</b></sub></a><br /><a href="https://github.com/M0nica/ambition-fund-website/commits?author=jordan-paz" title="Code">💻</a></td>
+    <td align="center"><a href="https://omaratta.me/resume"><img src="https://avatars2.githubusercontent.com/u/33264041?v=4" width="100px;" alt=""/><br /><sub><b>Omar Atta</b></sub></a><br /><a href="https://github.com/M0nica/ambition-fund-website/commits?author=omaratta212" title="Code">💻</a></td>
   </tr>
 </table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
-
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

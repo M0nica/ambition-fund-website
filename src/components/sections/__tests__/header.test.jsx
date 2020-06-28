@@ -39,6 +39,14 @@ describe(`Header`, () => {
     expect(subtitle).toBeInTheDocument()
   })
 
+  it(`renders CTA copy`, () => {
+    const cta =
+      "Sign up to receive updates and be the first to hear when we launch our microgrant program for tech-related professional development opportunities."
+    const { getByText } = render(HeaderComponent)
+    const ctaText = getByText(cta)
+    expect(ctaText).toBeInTheDocument()
+  })
+
   it(`renders CTA button`, () => {
     const cta = "Subscribe"
     const { getByText } = render(HeaderComponent)
