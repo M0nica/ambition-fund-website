@@ -62,7 +62,7 @@ const TryItButton = styled.button`
   transition: all 0.2s ease;
   &:hover {
     transform: translateY(-1px);
-    background: ${props => props.theme.color.accent};
+    background: ${props => props.theme.color.hover};
     box-shadow: rgba(110, 120, 152, 0.22) 0px 2px 10px 0px;
   }
   @media (max-width: ${props => props.theme.screen.md}) {

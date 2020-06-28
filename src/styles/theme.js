@@ -26,6 +26,7 @@ const theme = {
     primary: "#071435",
     secondary: "#3e447c",
     accent: "#9499db",
+    hover: "#9499db",
     background: {
       white: "#ffffff",
       light: "#f8f8f8",
