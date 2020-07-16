@@ -13,6 +13,8 @@ describe(`Header`, () => {
           src: "/static/f86dacab254d878c29343dea4ba80134/a4376/people.png",
           srcSet:
             "/static/f86dacab254d878c29343dea4ba80134/69781/people.png 250w,\n/static/f86dacab254d878c29343dea4ba80134/3fa08/people.png 500w,\n/static/f86dacab254d878c29343dea4ba80134/a4376/people.png 706w",
+          aspectRatio: 1.1825795644891122,
+          sizes: "(max-width: 706px) 100vw, 706px",
         },
       },
     },
